@@ -22,7 +22,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <h2>Brainstation 3D Starter</h2>
+        <h2>Brainstation 3D Starter - Yash, Josh, Roy</h2>
         <Jawsh />
         <Card title="test" content="this is cool"></Card>
         <Input />
