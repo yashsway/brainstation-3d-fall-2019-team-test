@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import Jawsh from "./Jawsh/jawsh"
 
 import { Helmet } from 'react-helmet';
 
@@ -19,6 +20,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <h2>Brainstation 3D Starter</h2>
+        <Jawsh />
       </header>
     </div>
   );
