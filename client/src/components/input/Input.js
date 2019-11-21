@@ -5,7 +5,7 @@ import './Input.scss';
 export default class Input extends React.Component {
   render () {
     return (
-      <input className="input" type="text" name="name" placeholder="enter your name"></input>
+      <input className="input" type="text" name="name" placeholder="enter your name if it's not Josh"></input>
     )
   }
 }
