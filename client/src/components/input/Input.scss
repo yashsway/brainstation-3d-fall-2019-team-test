@@ -2,4 +2,8 @@
   width: 500px;
   height: 30px;
   padding: 5px 0 5px 20px;
+
+  &::placeholder {
+    color: red;
+  }
 }
