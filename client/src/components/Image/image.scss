@@ -1,0 +1,14 @@
+.image {
+  animation: rotate infinite 10s;
+  height: 300px;
+  width: 400px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(365deg);
+  }
+}

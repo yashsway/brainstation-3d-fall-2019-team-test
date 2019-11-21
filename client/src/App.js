@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import Jawsh from "./components/Jawsh/jawsh"
+import Image from "./components/Image"
 
 import { Helmet } from 'react-helmet';
 import Jawsh from "./Jawsh/jawsh";
@@ -25,6 +27,7 @@ function App() {
         <Jawsh />
         <Card title="test" content="this is cool"></Card>
         <Input />
+        <Image />
       </header>
     </div>
   );
