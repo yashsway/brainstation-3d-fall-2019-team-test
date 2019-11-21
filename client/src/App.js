@@ -5,6 +5,9 @@ import Jawsh from "./components/Jawsh/jawsh"
 import Image from "./components/Image"
 
 import { Helmet } from 'react-helmet';
+import Jawsh from "./Jawsh/jawsh";
+import Card from './components/Card';
+import Input from './components/input/Input';
 
 function App() {
   return (
@@ -22,6 +25,8 @@ function App() {
         </p>
         <h2>Brainstation 3D Starter</h2>
         <Jawsh />
+        <Card title="test" content="this is cool"></Card>
+        <Input />
         <Image />
       </header>
     </div>
