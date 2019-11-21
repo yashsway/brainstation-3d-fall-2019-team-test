@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 import './Card.scss';
 
 export default class Card extends React.Component {
