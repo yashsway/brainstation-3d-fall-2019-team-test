@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
-import Jawsh from "./Jawsh/jawsh"
+import Jawsh from "./components/Jawsh/jawsh"
 
 import { Helmet } from 'react-helmet';
 
