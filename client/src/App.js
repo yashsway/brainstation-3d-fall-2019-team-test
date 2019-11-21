@@ -1,9 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
-import Jawsh from "./Jawsh/jawsh"
 
 import { Helmet } from 'react-helmet';
+import Jawsh from "./Jawsh/jawsh";
+import Card from './components/Card';
+import Input from './components/input/Input';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         </p>
         <h2>Brainstation 3D Starter</h2>
         <Jawsh />
+        <Card title="test" content="this is cool"></Card>
+        <Input />
       </header>
     </div>
   );
